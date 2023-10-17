@@ -1,6 +1,7 @@
 # Data Scientist
-1. **Technical Skill: Python, MySQL, Tableau, Google Studio, Google Cloud, Airflow, Excel**
-2. **Soft Skill: Critical Thinking, Presentation, Data Storytelling**
+**Technical Skill**: Python, MySQL, Tableau, Google Studio, Google Cloud, Airflow, Excel
+
+**Soft Skill**: Critical Thinking, Presentation, Data Storytelling
 
 ## Education
 - **D4 Informatics Engineering** : Politeknik Negeri Malang
