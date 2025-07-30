@@ -1,12 +1,29 @@
-# Data Scientist
-**Technical Skill**: Python, MySQL, Tableau, Google Studio, Google Cloud, Airflow, Excel
+# usiness Intelligence Specialist
+**Technical Skill**: Microsoft Excel, Python, ELK, Google Looker, SQL, Tableau, PowerBI, Google Cloud Platform, MongoDB, BigQuery
 
-**Soft Skill**: Critical Thinking, Presentation, Data Storytelling
+**Soft Skill**: Team Work, Presentation Skill, Negotiation, Technical Analyst
 
 ## Education
 - **D4 Informatics Engineering** : Politeknik Negeri Malang
 
 ## Professional Experience
+### Data and Business Intelligence at PCS Payment 
+<font color="grey"> November 2023 - Now</font>
+
+- Collaborated with stakeholders across IT, Sales, and Operations to gather and define data requirements, ensuring alignment with business needs
+- Designed and maintained 20+ real-time operational dashboards to track KPIs, transactional trends, and system issues—enhancing decision-making speed and reducing reporting turnaround by 30%.
+- Executed complex data transformations, including aggregation and cleansing, to create comprehensive datasets for advanced analytical projects.
+- Built Python automation to detect transaction anomalies in Elasticsearch—including timeouts, transform failures, and ticket issues—triggering real-time alerts via Google Chat and reducing manual checks by 40%.
+- Established a reliable ELT system to transfer transactional and profile data from MongoDB and MySQL into Elasticsearch, providing operation teams with up-to-date data
+
+### Freelance Python Tutor at Superprof.com
+<font color="grey"> October 2023 - Jun 2025</font>
+
+- Delivered instruction in Python programming and Machine Learning, covering foundational concepts including supervised/unsupervised learning and model evaluation.
+- Guided learners in data preparation, including cleaning, handling missing values, and performing Exploratory Data Analysis (EDA) for model readiness.
+- Provided hands-on training in Natural Language Processing (NLP) using IndoBERT and time series forecasting using N-BEATS, focusing on model architecture, configuration, and performance tuning.
+
+
 ### Data Engineering at IYKRA  
 <font color="grey"> July 2023 - August 2023</font>
 
@@ -39,11 +56,10 @@ Simple Orchestrate ETL with Apache Airflow project is an overview of a simple Ex
 
 ![architecture](assets/img/architecture-etl.png)
 
-[Github](https://github.com/widiarsaf/simple-orchestrate-etl-airflow-globalSuperstore/tree/master) | [Dashboard](https://lookerstudio.google.com/reporting/0fcb01e5-3767-416c-9f3d-ec8b2963969e/page/xtQdD) 
+[Github](https://github.com/widiarsaf/simple-orchestrate-etl-airflow-globalSuperstore/tree/master)
 
 ### Customer Segmentation and Churn Analysis
 The architecture for ETL begins with extracting data from the data source, which is then transformed using pandas, with orchestration processes managed using Airflow. After the transformation, the data will be ingested into Google Storage, and subsequently sent to Google BigQuery. After that, a visualization process is carried out using Looker Studio.
 
 ![customer-segmentation](assets/img/customer-segmentation.png)
 
-[Presentation](https://www.canva.com/design/DAFuNsddcUk/iy32ebVAK-t9zDV_l9GnWw/view?utm_content=DAFuNsddcUk&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink) | [Github](https://github.com/widiarsaf/customer_segmentation_and_churn_analysis) 
