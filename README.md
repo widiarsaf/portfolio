@@ -1,4 +1,4 @@
-# usiness Intelligence Specialist
+# Business Intelligence Specialist
 **Technical Skill**: Microsoft Excel, Python, ELK, Google Looker, SQL, Tableau, PowerBI, Google Cloud Platform, MongoDB, BigQuery
 
 **Soft Skill**: Team Work, Presentation Skill, Negotiation, Technical Analyst
@@ -42,17 +42,21 @@ Point of Sales, Opera, Telephony systems, and other software providers.
 - Generate weekly and daily reports to track telephone and printer usage across various departments
 
 ## Project
+### Automatic Notifications for Monitoring Timed-Out Transactions
+**Tools: Python, Google Chat Webhook, ELK API**
+This describes an automated notification system built with Python. It connects to ELK Stack (Elasticsearch, Logstash, Kibana) via its API to monitor transaction data for any timed-out transactions. Once a timeout is detected, a summary of that transaction is automatically sent to a Google Chat webhook.
+
 ### Fraud Detection for Online Transaction
 **Tools: Apache Airflow, DBT, Google Looker, Python, Docker, Spark, Google Storage, Google BigQuery**
 
-A Digital Wallet company has quite a large amount of online transaction data. The company wants to acknowledging data limitation and uncertainties such as inaccurate or missing crucial information data. On the other hand, the company also wants to use online transaction data to detect online payment fraud that harms their business. The goal of this project is to Create a data pipeline that can be utilised for analysis and reporting to determine whether online transaction data has excellent data quality and can be used to detect fraud in online transactions.
+The project is about build a data pipeline for its large volume of online transaction data. This pipeline will assess data quality (acknowledging existing limitations like inaccuracies or missing info) and enable fraud detection to protect the business. The ultimate goal is to ensure the data is reliable for both analysis and reporting of online payment fraud.
 
 ![architecture](assets/img//architecture.png)
 
 [Presentation](https://drive.google.com/file/d/1Du-qdJ4TgBvl1wrcb0-DgKF5pO9ma3Kw/view) | [Github](https://github.com/widiarsaf/final-project-fraud-transaction-pipeline) |   [Dashboard](https://lookerstudio.google.com/reporting/eef88548-5ad4-4b22-82c4-37b7bb29ce0e) 
 
 ### Simple Orchestrate ETL with Apache Airflow
-Simple Orchestrate ETL with Apache Airflow project is an overview of a simple Extract, Transform, Load (ETL) process using Airflow, Google Cloud Storage, and BigQuery. At the end of the project, visualization is performed using Looker Studio, where data is gained from the data that has already been ingested into BigQuery.The architecture for ETL begins with extracting data from the data source, which is then transformed using pandas, with orchestration processes managed using Airflow. After the transformation, the data will be ingested into Google Storage, and subsequently sent to Google BigQuery. After that, a visualization process is carried out using Looker Studio
+This project demonstrates a simple ETL pipeline orchestrated with Apache Airflow. Data is extracted from a source, transformed using Pandas, and then loaded into Google Cloud Storage and BigQuery. Finally, Looker Studio is used for data visualization from BigQuery.
 
 ![architecture](assets/img/architecture-etl.png)
 
